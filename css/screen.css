@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+
+background-color: black;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  display: block;}
+
+.parte1{
+  height: fit-content;
+  background-color: red;
+  width: 100%;
+   
+}
+
+.parte2{
+  height: fit-content;
+
+    
+}
+.parte4{
+  height: fit-content;    
+}
+
+.parte5{
+  height: fit-content;
+  display: flex;
+  flex-flow: column;
+  align-items: center;    
+}
+.parte3{
+  height: fit-content;
+  background-color: blue;
+  background-image: url("../images/segundaParte.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+    }
+
+
+#logoinicial{
+  position: absolute;
+    z-index: 2;
+    padding: 10px;
+    width: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    top: 14vh;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 350px;
+}    
+
+.contenedor{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: white;
+}
+
+
+.menu{
+  margin-top: 10%;
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.logo-play{
+  width: 30%;
+}
+
+.opciones{
+  margin-top: 500px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.opciones>a{
+  padding: 50px;
+  height: 20px;
+  max-height: 15vw;
+  width: 20vw;
+  text-decoration: none;
+  color: #ffffff;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.opciones>a:hover{
+  background-color: #073791;
+  border-radius: 20px;
+  background-size: 25px 50px;
+  opacity: 60%;
+
+}
+
+
+
+button {
+  display: inline-block;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  width: 104px;
+  color: white ;
+  font-weight: bold;
+}
+
+#close-image img {
+  display: block;  
+  width: 100%;
+}
+
+
+.btPrincipal1{
+  
+  background-color: red;
+
+  color: black;
+  margin-top: 5px;
+
+
+
+  font-family: 'Josefin Sans', 'sans-serif';
+	font-size:1.3rem;
+	font-weight:300;
+
+	padding:5px 15px;
+	text-decoration:none;
+	border-radius:5px 5px 0 0;
+	transition:all linear 0.5s;
+}
+.btPrincipal3{
+ 
+  background-color: blue;
+
+
+  
+  color: black;
+  margin-top: 5px;
+
+  font-family: 'Josefin Sans', 'sans-serif';
+	font-size:1.3rem;
+	font-weight:300;
+	
+	padding:5px 15px;
+	text-decoration:none;
+	border-radius:5px 5px 0 0;
+	transition:all linear 0.5s;
+}
+
+.btPrincipal2{
+  
+  background-color: yellow;
+  
+  border-radius: 10%;
+  color: black;
+  margin-top: 5px;
+
+  font-family: 'Josefin Sans', 'sans-serif';
+	font-size:1.3rem;
+	font-weight:300;
+
+	padding:5px 15px;
+	text-decoration:none;
+	border-radius:5px 5px 0 0;
+  transition:all linear 0.5s;
+  
+ position: relative;
+}
+
+
+@media screen and (max-width: 900px){
+  
+
+  #logoinicial{
+    position: absolute;
+      z-index: 2;
+      padding: 10px;
+      width: auto;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      top: 14vh;
+      left: 50%;
+      transform: translateX(-50%);
+      max-width: 350px;
+      width: 50vw;
+  }
+  .xyz{
+    top:30vh;
+  }
+
+
+  
+}
+
+
+@media screen and (max-width: 700px){
+  .opciones{
+    
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .opciones>a{
+    padding: 5vw;
+    height: 20px;
+    max-height: 20vw;
+    width: 20vw;
+    text-decoration: none;
+    color: #ffffff;
+    justify-content: center;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color:#073791 ;
+    opacity: 70%;
+    border-radius: 20px;}
+}
+
+
+
+
+.btPrincipal1{
+  
+  background-color: red;
+
+  color: black;
+  margin-top: 5px;
+
+
+
+  font-family: 'Josefin Sans', 'sans-serif';
+	font-size:1.0rem;
+	font-weight:300;
+
+	padding:5px 15px;
+	text-decoration:none;
+	border-radius:5px 5px 0 0;
+	transition:all linear 0.5s;
+}
+.btPrincipal3{
+ 
+  background-color: blue;
+
+
+  
+  color: black;
+  margin-top: 5px;
+
+  font-family: 'Josefin Sans', 'sans-serif';
+	font-size:1rem;
+	font-weight:300;
+	
+	padding:5px 15px;
+	text-decoration:none;
+	border-radius:5px 5px 0 0;
+	transition:all linear 0.5s;
+}
+
+.btPrincipal2{
+  
+  background-color: yellow;
+  
+  border-radius: 10%;
+  color: black;
+  margin-top: 5px;
+
+  font-family: 'Josefin Sans', 'sans-serif';
+	font-size:1rem;
+	font-weight:300;
+
+	padding:5px 15px;
+	text-decoration:none;
+	border-radius:5px 5px 0 0;
+  transition:all linear 0.5s;
+  
+ position: relative;
+
+}
+@media screen and (max-width: 550px){
+  .opciones{
+    
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .opciones>a{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    height: 0px;
+    max-height: 20vw;
+    width: 70vw;
+    text-decoration: none;
+    color: #ffffff;
+    justify-content: center;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color:#073791 ;
+    opacity: 70%;
+    border-radius: 20px;
+    flex-flow:row nowrap;
+    margin-top: 10px;
+    
+    
+  }
+}
+ 
+@media screen and (max-width: 440px){
+  .btPrincipal1{
+    font-size: 0.7rem;
+  }
+  .btPrincipal2{
+    font-size: 0.7rem;
+  }
+  .btPrincipal3{
+    font-size: 0.7rem;
+  }
+}

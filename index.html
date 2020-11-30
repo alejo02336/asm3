@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="/css/screen.css" rel="stylesheet" />
+    <title>P5.js Sketch</title>
+    <link
+      rel="shorcut icon"
+      href="images/Ps5ultimologo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/screen.css" />  
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+  </head>
+  <body>   
+            
+          <section class="parte1">
+            
+
+            <div class="menu">
+              <img id="logoinicial" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/1280px-Playstation_logo_colour.svg.png" class="logo-play">
+              <img style="position: absolute; width: 60%; margin-top: 26.5%; z-index: 10;" src="images/botones/botones.png" class="xyz">
+              <div style="z-index: 100;" class="opciones">
+                <a href="#infoG" class="opcion-menu">Informacion General</a>
+                <a href="#Conocela" href="#conocela" class="opcion-menu">Conocela</a>
+                <a href="#Subsistemas" href="#subsistemas" class="opcion-menu">Subsistemas</a>
+                <a href="#Creditos" href="#creditos" class="opcion-menu">Creditos</a>
+              </div>
+            </div>
+
+            <!-- <iframe style="width: 100%; height: 100vh; position: static;" src="https://www.youtube.com/watch?v=qAFaLKstLPM&ab_channel=HaloGames" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="center" scrolling="yes"></iframe> -->
+            <iframe style="width: 100%; height: 100vh; position: static;" src="https://www.youtube.com/embed/qAFaLKstLPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen allow="autoplay" ></iframe>
+          <a name="infoG" ></a>
+          </section>
+                 
+          <section class="parte2">
+            <img style="width: 100%;" src="images/primeraParte.svg">
+
+          </section>
+                 
+          <section class="parte3">
+            <a name="Conocela"></a>
+            
+              <div class="contenedor">
+                <h2 class="titulo">PS5 COMPONENTES</h2> 
+               
+                  <img style="width: 50%; height: 60%; margin-bottom: 50px; margin-top: 50px;" src="images/PS5TD.PNG" usemap="#workmap" >
+                  <map name="workmap">
+                    <area shape="rect" coords="506,141,666,216" alt="Computer" href="motherboard.html">
+                    <area shape="rect" coords="390,172,500,500" alt="Phone" href="motherboard.html">
+                    
+                  </map>
+                  <h2 style="margin-bottom: 2%;" class="titulo">Conoce su interior</h2> 
+                  <iframe style="width: 50%; margin-bottom: 50px; height: 50vh;" src="https://www.youtube.com/embed/CaAY-jAjm0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="center" scrolling="yes"></iframe>
+              </div>
+        
+
+          </section>
+
+          <section class="parte4">
+            <a name="Subsistemas"></a>
+            <img style="width: 100%;" src="images/terceraParte.svg">
+          </section>
+          <section class="parte5">
+            <div class="sketchfab-embed-wrapper" >
+              <iframe title="A 3D model" style="width: 100%; margin-top: 50px;" src="https://sketchfab.com/models/5833f3516db442eaa2ef33702c110ae8/embed?autostart=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+              <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+                  <a href="https://sketchfab.com/3d-models/sony-playstation-5-5833f3516db442eaa2ef33702c110ae8?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sony PlayStation 5</a>
+                  by <a href="https://sketchfab.com/Spellmansp?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Spellmansp</a>
+                  on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+              </p>
+          </div>
+
+          <div style="margin-top: 2%;"  class="audio-subsistema">
+            <h1 style="color: white;">Porque es un subsistema?</h1>
+            <audio src="audios/Consola.wav" controls></audio>
+          </div>
+          
+
+
+          <div style="margin-top: 5%; margin-bottom: 5%;" class="detalles-sistema">
+            
+            <button onclick="procesador()" id="close-image"><img src="images/botones/procesador.png">Procesador</button>
+            <button onclick="Almacenamiento()" id="close-image"><img src="images/botones/almacenamiento.png">Almacenamiento</button>
+            <button onclick="OS()" id="close-image"><img src="images/botones/os.png">OS</button>
+            
+          </div>
+
+
+
+
+
+          <div class="sketchfab-embed-wrapper"  margin-top: 500px;">
+              <iframe title="A 3D model" style="width: 100%;" src="https://sketchfab.com/models/49138c28de334c84955719ffcb4e7aab/embed?autostart=0&amp;ui_controls=0&amp;ui_infos=0&amp;ui_inspector=0&amp;ui_stop=0&amp;ui_watermark=0&amp;ui_watermark_link=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+              <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+                  <a href="https://sketchfab.com/3d-models/ps5-dualsense-controller-49138c28de334c84955719ffcb4e7aab?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">PS5 DualSense Controller</a>
+                  by <a href="https://sketchfab.com/virtualstudio?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Virtual Studio</a>
+                  on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+              </p>
+          </div>
+          <div style="margin-top: 2%;" class="audio-subsistema">
+            <h1 style="color: white;">Porque es un subsistema?</h1>
+            <audio src="audios/Control.wav" controls></audio>
+          </div>
+
+
+          <div style="margin-top: 5%; margin-bottom: 5%;" class="detalles-sistema">
+            
+            <button onclick="microcontrolador()" id="close-image"><img src="images/botones/microcontrolador.png">Microcontrolador</button>
+            <button onclick="memoria()" id="close-image"><img src="images/botones/memoria.png">Memoria</button>
+            <button onclick="drivers()" id="close-image"><img src="images/botones/drivers.png">Drivers</button>
+            
+          </div>
+        
+
+            <img style="width: 100%; position: fixed;     position: absolute;
+            z-index: -10;" src="images/cuartaParte.svg">
+          </section>
+
+
+
+          <section class="parte5">
+            <a name="Creditos"></a>
+         
+            <img style="width: 100%;" src="images/quienta.svg">
+
+            <div style="position: absolute; margin-top: 20%;">
+              <a href="https://www.playstation.com/en-us/ps5/" class="btPrincipal1">Pagina Oficial Ps5</a>
+              <a href="https://eloutput.com/noticias/videojuegos/ps5-caracteristicas-tecnicas-oficiales/" class="btPrincipal2">Especificaciones Tecnicas</a>
+              <a onclick="Creditos()" class="btPrincipal3">Creditos</a>
+            </div>
+           
+
+          </section>
+          
+             
+             
+  </body>
+
+  <script>
+
+
+    function procesador(){
+
+      
+
+      Swal.fire({
+        title: 'Procesador ps5',
+        html: ""
+        
+            
+              + "<br/> Nombre: x86-64-AMD Ryzen™ “Zen 2”"
+              + "<br/> Características técnicas:"
+              + "<br/> • 8 Núcleos / 16 Hilos"
+              + "<br/> • Velocidad reloj de frecuencia variable, hasta 3.5 GHz"
+              + "<br/> • Memoria cache L1 y L2 hasta 33% más rápido que PS4"
+              + "<br/> • GPU AMD RDNA2 con 36 unidades computacionales, hasta 2.23GHz (10.28 teraflops)"+
+                "<br/>Memoria RAM"+
+                "<br/>Características técnicas:"+
+                "<br/> •Capacidad 16GB GDDR6/256-bit"+
+                "<br/> •Ancho de banda de 448Gb/s"
+        
+        ,
+
+        imageUrl: 'images/partes/procesador.jpeg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Procesador ps5',
+      })
+    }
+
+    function Almacenamiento(){
+      Swal.fire({
+        title: 'Unidad de almacenamiento',
+        html: ""+      
+            
+            "Características técnicas:"+
+            "<br/> • Unidad de almacenamiento en estado sólido tipo NVMe personalizada."+
+            "<br/> • Capacidad de 825GB"+
+            "<br/> • Velocidad de transferencia de datos de 5.5GB/s y 8-9GB/s (archivos comprimidos)"+
+            "<br/> • Interfaz de gestión de 12 canales."+
+            "<br/> • Conexión PCI express 4.0"+
+            "<br/> • SSD separado en 4 bloques (eliminando así cuello de botella)."+
+            "<br/> • Seis niveles de prioridad en gestión de entrega de datos."+
+            "<br/> • Posibilidad de descompresión de hardware ZLIB y KRAKEN."+
+            "<br/> • Ranura NVMe expandible."
+           
+        
+        ,
+        imageUrl: 'images/partes/almacenamiento.jpeg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+      })
+    }
+
+    function OS(){
+      Swal.fire({
+        title: 'Sistema Operativo',
+        html:         
+        
+       ""+
+       " <br/>  Nombre: PS5 OS"+
+       " <br/>  Características técnicas:"+
+       " <br/> •   Sistema operativo personalizado basado en FreeBSD"+
+       " <br/> •   FreeBSD versión 12.0"+
+       " <br/> •   FreeBSD kernel monolítico con módulos cargables dinámicamente"+
+       " <br/> •   Se sobreentiende uso de norma POSIX IEEE para llamadas al sistema."+
+       " <br/> •   Interfaz de usuario PS5 UI"
+        
+        
+        ,
+        imageUrl: 'images/partes/os.jpeg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+      })
+    }
+
+
+    function microcontrolador(){
+      Swal.fire({
+        title: 'Microcontrolador Dualsense',
+        html:
+
+           " "+
+           " Nombre: Dualsense integrated circuit"+
+           "<br/> Características técnicas:"+
+           " <br/> • Motherboard EP-GW Sony"+
+           " <br/> • Chip principal SIE CXD90064GG personalizado de Sony"+
+           " <br/> • Dialog DA9087 PMIC"+
+           " <br/> • Códec de audio Realtek ALC5524"+
+           "<br/> Por microcontrolador se sobreentiende:"+
+           " <br/> • Longitud de palabra 8-16 bits."+
+           " <br/> • Frecuencia reloj en MHz"+
+           " <br/> • 2 núcleos / 2 hilos"
+        
+        
+        
+        
+        ,
+        imageUrl: 'images/partes/microcontrolador.jpeg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+      })
+    }
+
+    function memoria(){
+      Swal.fire({
+        title: 'Memoria',
+        html: 
+        
+        
+        "Memoria integrada en microcontrolador. (Sony default)"
+       
+        
+        
+        ,
+        imageUrl: 'images/partes/memoria.jpeg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+      })
+    }
+
+    function drivers(){
+      Swal.fire({
+        title: 'Controladores:',
+        html: 
+          ""+
+          "Driver de stock compatible para funcionamiento con sistema PS5 y PC."                    
+        ,
+        imageUrl: 'images/partes/drivers.jpeg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+      })
+    }
+    
+    function Creditos(){
+      
+      Swal.fire({
+          icon: 'info',
+          title: 'Creditos',
+          html: "<br/> • Danny Alejandro Martinez Duque"+
+          
+          "<br/> • Samir Hassan Ordoñez"+
+          "<br/> • Luis Fernando Pareja Bernal"+
+          "<br/> • Santiago Martinez Marin"       
+          
+          
+      })
+
+    }
+
+
+
+
+  </script>
+
+</html>
